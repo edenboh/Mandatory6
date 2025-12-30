@@ -1,0 +1,11 @@
+URL: https://github.com/edenboh/Mandatory6/blob/main/DailyChallenge.py
+suggestions for improvement:
+- The `get_info` method could use string formatting for better output alignment, as suggested in the prompt.
+- The string concatenation in `get_info` can be made more efficient by using f-strings.
+- Consider adding docstrings to your methods for better documentation.
+Brief justification:
+- correctness: The code correctly implements the `Farm` class with `__init__`, `add_animal`, and `get_info` methods. It fulfills the core requirements. The output doesn't perfectly match the example (alignment), losing some points, but the functionality is there. The bonus part is not implemented, so it loses some points as well.
+- readability: The code is generally readable with clear variable names and straightforward logic. The indentation is consistent.
+- performance: The code has reasonable performance for the given task. String concatenation in `get_info` could be slightly improved with f-strings or `join` for larger farms, but it's not a significant issue here.
+- security: There are no apparent security concerns in this code.
+
