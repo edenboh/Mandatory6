@@ -1,0 +1,12 @@
+URL: https://github.com/edenboh/Mandatory6/blob/main/ExercicesXP.py
+suggestions for improvement:
+- In `find_oldest_cat`, instead of modifying cat1, return a new Cat object. This will not change the original object and is a safer approach.
+- In exercise 2, the last print statement can be improved for readability and to be more in line with the other f-strings.
+- In the Zoo class, method `sort_animals`, the first animal added will create a list but subsequent animals will not add to it. They will overwrite it.  Consider using `self.grouped_animals[firstLetter].append(animal)`
+- In the Zoo class, in method `sort_animals` consider using `setdefault` to create lists.
+Brief justification:
+- correctness: The code accurately addresses all the exercises outlined in the chapter content. Each exercise is implemented correctly, demonstrating understanding of classes, objects, methods, and attributes. Ex1 produces the correct output. Ex2 produces the correct output. Ex3 produces the correct output.  Ex4 produces the correct output.
+- readability: The code is generally well-formatted and easy to read. Variable names are descriptive. The code is logically structured, making it easy to follow the flow of execution. Some minor improvements can be made to enhance readability further (e.g., more descriptive comments or consolidating print statements).
+- performance: The code demonstrates reasonable performance for the given tasks. The algorithms used are efficient for the scale of the problems. There are no obvious performance bottlenecks.
+- security: The code does not directly involve any security-sensitive operations. There are no apparent vulnerabilities.
+
